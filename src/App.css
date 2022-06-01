@@ -1,5 +1,5 @@
 body {
-  background-image:url(./images/background.png);
+  background-image: url(./images/background.png);
 }
 .blocos {
   display: flex;
@@ -13,31 +13,31 @@ body {
 }
 .center {
   display: flex;
-  flex-direction:row;
-  justify-content:center;
+  flex-direction: row;
+  justify-content: center;
 }
 #container {
-  align-items:center;
+  align-items: center;
   display:flex;
-  flex-direction:column;
-  height:120px;
-  margin-bottom:9px;
-  width:145px;
+  flex-direction: column;
+  height: 120px;
+  margin-bottom: 9px;
+  width: 145px;
 }
 .espassos {
   display: flex;
   margin: 1px;
 }
 .planetas {
-  display:flex;
-  flex-direction:row;
-  justify-content:center;
-  width:80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 80px;
 }
 .fonte {
   color: antiquewhite;
-  display:flex;
+  display: flex;
   font-family: 'Gi Calibri';
-  flex-direction:row;
-  justify-content:center;
+  flex-direction: row;
+  justify-content: center;
 }
