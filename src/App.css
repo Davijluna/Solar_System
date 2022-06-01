@@ -1,49 +1,43 @@
 body {
-background-image: url(./images/background.png);
+  background-image:url(./images/background.png);
 }
-
-.planetas {
-display: flex;  
-width: 80px;
-justify-content: center;
-flex-direction: row;
-}
-
-#container {
-  width: 145px;
-  height: 120px;
-  display:flex;
-  flex-direction: column;
-  margin-bottom: 9px;
-  align-items: center;
-}
-
-.fonte {
+.blocos {
   display: flex;
-  flex-direction:row;
-  justify-content: center;
-  color: antiquewhite;
-  font-family: 'Gi Calibri';
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
-.espassos {
-  display: flex;
-  margin: 1px;
-}
-
 .border {
   display: flex;
   border: solid 1px rgb(110, 106, 106);
   border-radius: 9px;
 }
-
 .center {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction:row;
+  justify-content:center;
 }
-
-.blocos {
+#container {
+  width:145px;
+  height:120px;
+  display:flex;
+  flex-direction:column;
+  margin-bottom:9px;
+  align-items:center;
+}
+.espassos {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  margin: 1px;
+}
+.planetas {
+  display:flex;
+  width:80px;
+  justify-content:center;
+  flex-direction:row;
+}
+.fonte {
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  color: antiquewhite;
+  font-family: 'Gi Calibri';
 }
