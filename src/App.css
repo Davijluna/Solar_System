@@ -1,21 +1,25 @@
 body {
   background-image: url(./images/background.png);
 }
+
 .blocos {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
+
 .border {
   border: solid 1px rgb(110, 106, 106);
   border-radius: 9px;
   display: flex;
 }
+
 .center {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
+
 #container {
   align-items: center;
   display:flex;
@@ -24,20 +28,23 @@ body {
   margin-bottom: 9px;
   width: 145px;
 }
+
 .espassos {
   display: flex;
   margin: 1px;
 }
+
 .planetas {
   display: flex;
   flex-direction: row;
   justify-content: center;
   width: 80px;
 }
+
 .fonte {
   color: antiquewhite;
   display: flex;
-  font-family: 'Gi Calibri';
   flex-direction: row;
+  font-family: "Gi Calibri";
   justify-content: center;
 }
