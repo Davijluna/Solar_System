@@ -1,3 +1,46 @@
-.App {
-  text-align: center;
+body {
+background-image: url(./images/background.png);
+}
+
+.planetas {
+display: flex;  
+width: 150px;
+justify-content: center;
+flex-direction: row;
+}
+
+#container {
+  width: 180px;
+  height: 190px;
+  display:flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.fonte {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: antiquewhite;
+  font-family: 'Gi Calibri';
+}
+
+.border {
+  display: flex;
+  border: solid 1px white;
+  border-radius: 9px;
+  width: 280px;
+}
+
+.center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.blocos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }

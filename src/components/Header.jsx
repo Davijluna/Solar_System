@@ -4,7 +4,7 @@ class Hearder extends React.Component {
   render() {
     return (
       <header>
-        <h1>Sistema Solar</h1>
+        <h1 className="fonte">Sistema Solar</h1>
       </header>
     );
   }
