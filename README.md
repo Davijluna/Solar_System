@@ -30,7 +30,7 @@ A **Solar System** App é uma aplicação que proporciona uma exploração inter
 ```
 
 ```bash
-  # instalando  dependêcia
+  # instalando dependêcia
   $ npm install
 ```
 
