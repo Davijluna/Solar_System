@@ -36,5 +36,5 @@ A **Solar System** App é uma aplicação que proporciona uma exploração inter
 
 ```bash
   # rodando a aplicação
-  $ npm starts
+  $ npm start
 ```
