@@ -2,11 +2,12 @@ body {
   background-image: url(./images/background.png);
 }
 
+
 #Netuno {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 70px;
+  margin-top: 45px;
   max-width: 150px;
 }
 
@@ -15,8 +16,8 @@ body {
   flex-direction: row;
   justify-content: center;
   margin-left: auto;
-  margin-top: 80px;
-  max-width: 80px;
+  margin-top: 45px;
+  max-width: 150px;
 }
 
 #Marte {
@@ -24,38 +25,38 @@ body {
   flex-direction: row;
   justify-content: center;
   margin-left: auto;
-  margin-top: 100px;
-  max-width: 20px;
+  margin-top: 45px;
+  max-width: 150px;
 }
 
 #Saturno {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  max-width: 280px;
+  margin-top: 45px;
+  max-width: 150px;
 }
 
 #Vênus {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 100px;
-  max-width: 20px;
+  margin-top: 45px;
+  max-width: 150px;
 }
 
 #Mercúrio {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 100px;
-  max-width: 20px;
+  margin-top: 45px;
+  max-width: 150px;
 }
 
 #Urano {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 70px;
+  margin-top: 45px;
   max-width: 150px;
 }
 
@@ -63,7 +64,8 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  max-width: 300px;
+  margin-top: 45px;
+  max-width: 150px;
 }
 
 
@@ -74,7 +76,7 @@ body {
 }
 
 .border {
-  border: solid 1px rgb(110, 106, 106);
+  border: solid 5px rgb(110, 106, 106);
   border-radius: 9px;
   display: flex;
 }
@@ -83,6 +85,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-bottom: -10px;
 }
 
 #container {
@@ -105,4 +108,5 @@ body {
   flex-direction: row;
   font-family: "Gi-Calibri";
   justify-content: center;
+  margin-bottom: 10px;
 }
