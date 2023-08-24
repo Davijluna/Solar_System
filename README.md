@@ -3,6 +3,8 @@
 
 A **Solar System** App é uma aplicação que proporciona uma exploração interativa dos oito planetas do nosso sistema solar, juntamente com informações detalhadas sobre vinte missões espaciais históricas. Essa experiência é obtida através da integração com uma **API** usando a biblioteca **React**.
 
+link: <a href="https://solar-system-bad2.vercel.app/"> Solar System</a>
+
 <img src="./imgReadme/Captura de tela de 2023-08-10 20-00-49.png">
 
 <h1 align="center">🧑🏽‍🚀</h1>
